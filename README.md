@@ -3,7 +3,7 @@
 1. [ Introduction. ](#intro)<br />
      1.1 [ Text-to-Text Transfer Transformer (T5). ](#t5)<br />
      1.2 [ Multilingual T5. ](#mt5)
-3. [ Usage tips. ](#usage)
+3. [ Fine-tuning MT5. ](#finetune)
 
 <a name="intro"></a>
 ## 1. Introduction
@@ -26,7 +26,25 @@ The authors trained 5 different size variants of T5: small model, base model, la
 
 Similar to T5, the authors trained 5 different size variants of MT5: small model, base model, large model, XL, and XXL model. The increase in parameter counts compared to the corresponding T5 model variants comes from the larger vocabulary used in mT5.
 
-<a name="usage"></a>
-## 2. Usage tips
+<a name="finetune"></a>
+## 2. Fine-tuning MT5
 
-sometext
+[MT5-small](https://console.cloud.google.com/storage/browser/t5-data/pretrained_models/mt5/small?pli=1) is fine-tuned on a new task of predicting the language a given text is written in, using the [XNLI](https://github.com/facebookresearch/XNLI) dataset, which contains text in 15 languages. The XNLI 15-way parallel corpus consists of 15 tab-separated columns, each corresponding to one language as indicated by the column headers. The column headers, each representing a language is given below,
+
+ar: Arabic<br />
+bg: Bulgarian<br />
+de: German<br />
+el: Greek<br />
+en: English<br />
+es: Spanish<br />
+fr: French<br />
+hi: Hindi<br />
+ru: Russian<br />
+sw: Swahili<br />
+th: Thai<br />
+tr: Turkish<br />
+ur: Urdu<br />
+vi: Vietnamese<br />
+zh: Chinese (Simplified)<br />
+
+These column headers are used as the target text during fine-tuning. MT5 models are supported by [Hugging Face transformers](https://huggingface.co/transformers/model_doc/mt5.html) package, and the details about model evaluation and fine-tuning can be found in the documentation.
