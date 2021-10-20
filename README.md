@@ -63,7 +63,7 @@ Similar to T5, the authors trained 5 different size variants of MT5: small model
 | 32 | <idf.lang> Αντίο!                                                                                                                                   | el            | ar          |
 | 33 | <idf.lang> Ye aik bura tasur daita hai agr ap karkanon ko ye dekhain k unki awazein nahi suni ja rahin.                                             | ur            | hi          |
 | 34 | <idf.lang> Congress insadad e dehshat gardi ki nigran hai.                                                                                          | ur            | hi          |
-| 35 | <idf.lang> You are definitely wrong                                                                                                                 | th            | en          |
+| 35 | <idf.lang> Eugene Debs era de Indiana.                                                                                                              | es            | en          |
 | 36 | <idf.lang> jaisa aap jante hai, is samuh me sadasyata un mitra evam purane chhatron ki hai jo varshik tor par $1,000 kanun school ke liye dete hai. | hi            | ur          |
 | 37 | <idf.lang> Имах проблеми с Linux.                                                                                                                   | bg            | ru          |
 | 38 | <idf.lang> Talmudic in samaanome se ek bhi nahi le jata.                                                                                            | hi            | ur          |
