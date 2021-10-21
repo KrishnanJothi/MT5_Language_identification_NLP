@@ -107,4 +107,12 @@ These column headers are used as the target text during fine-tuning. MT5 models 
 <a name="dp"></a>
 ## 2.1 Data Preparation
 
-The dataset is 
+The [xnli  dataset](dataset/xnli15.tsv) is cleaned and then prepared as a two-column data frame, with the column headers 'input_text' and 'target_text'. Since MT5 is a text-to-text model, to specify which task the model should perform, a prefix text is added to the original input sequence before feeding it. The prefix <idf.lang> is added as a special token to the tokenizer. A few of the prepared training samples are shown below,
+
+| input_text                                                                                                | target_text   |
+|:----------------------------------------------------------------------------------------------------------|:--------------|
+| <idf.lang> सांप नदी सांपों  से भरा है।                                                                         | hi            |
+| <idf.lang> Anaokulu öğrencilerinin taklit yapma konusunda o kadar fazla yardıma ihtiyaçları yok.          | tr            |
+| <idf.lang> Важно показать пределы данных, или люди сделают плохие выводы, которые уничтожат исследование. | ru            |
+| <idf.lang> Музеят е в близост до египетския музей.                                                        | bg            |
+| <idf.lang> O Mungu kwa sababu jina jina tu nimelisahau lakini ni Amani ya Bunge                           | sw            |
