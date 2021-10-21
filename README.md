@@ -3,7 +3,8 @@
 1. [ Introduction. ](#intro)<br />
      1.1 [ Text-to-Text Transfer Transformer (T5). ](#t5)<br />
      1.2 [ Multilingual T5. ](#mt5)
-3. [ Fine-tuning MT5. ](#finetune)
+2. [ Fine-tuning MT5. ](#finetune)<br />
+     2.1 [ Data preparation. ](#dp)
 
 <a name="intro"></a>
 ## 1. Introduction
@@ -102,3 +103,8 @@ vi: Vietnamese<br />
 zh: Chinese (Simplified)<br />
 
 These column headers are used as the target text during fine-tuning. MT5 models are supported by [Hugging Face transformers](https://huggingface.co/transformers/model_doc/mt5.html) package, and the details about model evaluation and fine-tuning can be found in the documentation.
+
+<a name="dp"></a>
+## 2.1 Data Preparation
+
+The dataset is 
