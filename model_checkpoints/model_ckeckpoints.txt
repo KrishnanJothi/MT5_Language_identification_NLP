@@ -1,0 +1,3 @@
+saved model checkpoints during MT5 fine-tuning can be found in the following link,
+
+https://drive.google.com/drive/folders/1Tl56Trl8_RJhQRKOqYqPVWFtLZN-Fj1t?usp=sharing 
