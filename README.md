@@ -153,12 +153,10 @@ The model is tested on 10,000 examples, out of which only 51 are wrongly predict
 | ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) 50 | <idf.lang> Design ka mutali’aa kamiyab nae tha.                                                                                                     | ur            | hi          |
 
 
-```diff
-+ this text is highlighted in green
-- this text is highlighted in red
-```
 
-![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `krish`
+![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)  Almost 40% of the wrong predictions are either Hindi sentences predicted as Urdu or vice versa. In a day-to-day colloquial conversation, it is very common to write Hindi text messages using English letters. And the same goes with Urdu. All these wrongly predicted sentences with red squares are Hindi or Urdu sentences written using English letters. But why ?
 
-~~This is green~~
-_this is blue_
+- Both Hindi and Urdu originally developed from Khari Boli, a dialect of the Delhi region, and the spoken languages are extremely similar to one another. They have the exact same grammatical structure, and at the beginner level, they share over 70 - 80% of their vocabulary. If you heard people speaking in India, you wouldn’t know if it was Hindi or Urdu. Although spoken Urdu and Hindi are very similar, the written portions of the languages are quite different from one another, and it is their separate scripts and literary traditions that have largely contributed to their status as separate languages rather than dialects. Hindi is developed from Sanskrit and written left-to-right, while Urdu has a right-to-left script that is derived from Persian and Arabic.
+
+- So when Hindi/Urdu is written using English letters, the model finds it difficult to differentiate them since they sound very similar, and hence they contribute to almost 40% of the wrong predictions.
+
