@@ -130,8 +130,6 @@ Since the input and target token id lengths are task-specific, the distribution 
   <img src="dataset/token_length_hist/op_tokens_len.jpg" width="400" /> 
 </p>
 
-![alt text](dataset/token_length_hist/ip_tokens_len.jpg)  ![alt text](dataset/token_length_hist/op_tokens_len.jpg)
-
 - The maximum input sequence length is set to 40.
 - The maximum target sequence length is set to 3.
 - truncation=True truncates the sequence to a maximum length specified by the max_length argument.
