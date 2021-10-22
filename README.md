@@ -123,7 +123,7 @@ The [xnli  dataset](dataset/xnli15.tsv) is cleaned and then prepared as a two-co
 
 [T5 paper](https://arxiv.org/pdf/1910.10683.pdf) (source) : " *There are some extra parameters in the decoder due to the encoder-decoder attention and there are also some computational costs in the attention layers that are* ***quadratic in the sequence lengths*** "
 
-Since the input and target token id lengths are task-specific, the distribution of the token id lengths of the dataset needs to be first analyzed.
+Since the input and target token id lengths are task-specific, the distribution of the token id lengths of the dataset needs to be first analyzed. Decent values need to be chosen for sequence lengths without requiring high computational power.
 
 <p float="left">
   <img src="dataset/token_length_hist/ip_tokens_len.jpg" width="400" />
