@@ -7,6 +7,7 @@
      2.1 [ Data preparation. ](#dp)<br />
      2.2 [ Encoding configuration. ](#ec)<br />
      2.3 [ Training results. ](#tr)<br />
+     2.4 [ Model Testing. ](#mt)<br />
 
 <a name="intro"></a>
 ## 1. Introduction
@@ -139,4 +140,13 @@ Since the input and target token id lengths are task-specific, the distribution 
 <a name="tr"></a>
 ## 2.3 Training Results
 
-The optimizer used is AdamW with the learning rate 5e-4. The learning rate scheduler used is a linear schedule with a warmup, which creates a schedule with a learning rate that decreases linearly from the initial learning rate set in the optimizer to 0, after a warmup period during which it increases linearly from 0 to the initial learning rate set in the optimizer. Warmup is a way to reduce the primacy effect of the early training examples.
+The optimizer used is AdamW with the learning rate 5e-4. The learning rate scheduler used is a linear schedule with a warmup, which creates a schedule with a learning rate that decreases linearly from the initial learning rate set in the optimizer to 0, after a warmup period during which it increases linearly from 0 to the initial learning rate set in the optimizer. Warmup is a way to reduce the primacy effect of the early training examples. The training and the validation losses computed during fine-tuning are plotted in the below graph,
+
+![alt text](finetuning_results/Loss_Plot.png)
+
+<a name="mt"></a>
+## 2.4 Model Testing
+
+**Model Test Accuracy: 99.49%**
+
+The model is tested on 10,000 examples, out of which only 51 are wrongly predicted. To understand better, let's try to take a close look at the wrong predictions. All the wrong predictions are listed in the table below.
