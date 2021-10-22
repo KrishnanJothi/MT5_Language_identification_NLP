@@ -30,59 +30,6 @@ The authors trained 5 different size variants of T5: small model, base model, la
 
 Similar to T5, the authors trained 5 different size variants of MT5: small model, base model, large model, XL, and XXL model. The increase in parameter counts compared to the corresponding T5 model variants comes from the larger vocabulary used in mT5.
 
-|    | Input_text                                                                                                                                          | True_target   | Predicted   |
-|---:|:----------------------------------------------------------------------------------------------------------------------------------------------------|:--------------|:------------|
-|  0 | <idf.lang> andaroni circle ki membership muft nahi hai.                                                                                             | ur            | hi          |
-|  1 | <idf.lang> aisa lag raha tha k ye hmaisha k liye hai.                                                                                               | ur            | hi          |
-|  2 | <idf.lang> Brock no defiende a Hillary.                                                                                                             | es            | en          |
-|  3 | <idf.lang> Huevos means balls.                                                                                                                      | en            | th          |
-|  4 | <idf.lang> До свидания!                                                                                                                             | ru            | bg          |
-|  5 | <idf.lang> Той прегърна широко лорд Джулиан.                                                                                                        | bg            | ru          |
-|  6 | <idf.lang> Mujhe aik glass chocolate ka doodh chahiye                                                                                               | ur            | hi          |
-|  7 | <idf.lang> (a) Променете всяко d или t в целта до c.                                                                                                | bg            | ru          |
-|  8 | <idf.lang> aur aisa hi tha jaise wo ise mustarad kar rahi thi, kuch tareqon se, jis trha se isne apke sath bartao kiya, dosre nawase.               | ur            | hi          |
-|  9 | <idf.lang> Кальдас де Мончик окружен лесами.                                                                                                        | ru            | bg          |
-| 10 | <idf.lang> Yahan pr buht zyada IT workers han.                                                                                                      | ur            | hi          |
-| 11 | <idf.lang> Cambridge'den.                                                                                                                           | tr            | en          |
-| 12 | <idf.lang> Mosam kafi acha hai or barish wala hai.                                                                                                  | ur            | hi          |
-| 13 | <idf.lang> Koleksiyonda on iki makale var.                                                                                                          | tr            | vi          |
-| 14 | <idf.lang> خدا حافظ!                                                                                                                                | ur            | ar          |
-| 15 | <idf.lang> Aik cheez jo M. Tesnaires nai khaya nahi kya, woh, Anglo-Saxon ka input hah.                                                             | ur            | hi          |
-| 16 | <idf.lang> Mera ek Credit Union hai, jiske paas mai jaa sakta hu                                                                                    | hi            | ur          |
-| 17 | <idf.lang> FAA ki traffic control k data ka tajzeea kiya gya tha.                                                                                   | ur            | hi          |
-| 18 | <idf.lang> sasty aur dhokay wali masnoa'at.                                                                                                         | ur            | sw          |
-| 19 | <idf.lang> Биеннале Венеции перенаселено.                                                                                                           | ru            | bg          |
-| 20 | <idf.lang> Curanderas heilen oft caida de mollera.                                                                                                  | de            | bg          |
-| 21 | <idf.lang> Бих избрал  I'll Fly Away.                                                                                                               | bg            | ru          |
-| 22 | <idf.lang> Беги и кричи.                                                                                                                            | ru            | bg          |
-| 23 | <idf.lang> अलविदा!                                                                                                                                  | hi            | ur          |
-| 24 | <idf.lang> Давай продолжим разговор.                                                                                                                | ru            | bg          |
-| 25 | <idf.lang> James Wilson Marshall ne kuch khas nahi kiya.                                                                                            | ur            | hi          |
-| 26 | <idf.lang> Je choisirai I'll Fly Away                                                                                                               | fr            | en          |
-| 27 | <idf.lang> Sielewi hoja hio.                                                                                                                        | sw            | ur          |
-| 28 | <idf.lang> Ek insaan ne sare jawano ko mansik santulan diya                                                                                         | hi            | ur          |
-| 29 | <idf.lang> Meri dadi hamasha apne bachpan ke baray mein baat kerne ki lye inkaar kar deti thein.                                                    | ur            | hi          |
-| 30 | <idf.lang> aur hum, Las Vegas, NV mai aik adress par move hogaye hian, jaisa ke humne Washington mai kiya tah.                                      | ur            | hi          |
-| 31 | <idf.lang> si...si..sikuota.                                                                                                                        | sw            | ur          |
-| 32 | <idf.lang> Αντίο!                                                                                                                                   | el            | ar          |
-| 33 | <idf.lang> Ye aik bura tasur daita hai agr ap karkanon ko ye dekhain k unki awazein nahi suni ja rahin.                                             | ur            | hi          |
-| 34 | <idf.lang> Congress insadad e dehshat gardi ki nigran hai.                                                                                          | ur            | hi          |
-| 35 | <idf.lang> Eugene Debs era de Indiana.                                                                                                              | es            | en          |
-| 36 | <idf.lang> jaisa aap jante hai, is samuh me sadasyata un mitra evam purane chhatron ki hai jo varshik tor par $1,000 kanun school ke liye dete hai. | hi            | ur          |
-| 37 | <idf.lang> Имах проблеми с Linux.                                                                                                                   | bg            | ru          |
-| 38 | <idf.lang> Talmudic in samaanome se ek bhi nahi le jata.                                                                                            | hi            | ur          |
-| 39 | <idf.lang> Режан кристально чиста.                                                                                                                  | ru            | bg          |
-| 40 | <idf.lang> Aise mera usse picha choota tha                                                                                                          | hi            | ur          |
-| 41 | <idf.lang> City hall terminal se buht dour hai.                                                                                                     | ur            | hi          |         |
-| 42 | <idf.lang> 拦截处理不当。                                                                                                                            | zh            | zhur          |
-| 43 | <idf.lang> James Cook bereiste alle Hawaii-Inseln.                                                                                                  | de            | en          |
-| 44 | <idf.lang> Personne ne prie.                                                                                                                        | fr            | de          |
-| 45 | <idf.lang> Biosfer 1000 mil genişledi.                                                                                                              | tr            | sw          |
-| 46 | <idf.lang> Wolverstone hakucheka.                                                                                                                   | sw            | en          |
-| 47 | <idf.lang> No soñé.                                                                                                                                 | es            | fr          |
-| 48 | <idf.lang> 'Biosphere' ilikua.                                                                                                                      | sw            | ar          |
-| 49 | <idf.lang> Sag Biegung.                                                                                                                             | de            | ar          |
-| 50 | <idf.lang> Design ka mutali’aa kamiyab nae tha.                                                                                                     | ur            | hi          |
 
 <a name="finetune"></a>
 ## 2. Fine-tuning MT5
@@ -150,3 +97,57 @@ The optimizer used is AdamW with the learning rate 5e-4. The learning rate sched
 **Model Test Accuracy: 99.49%**
 
 The model is tested on 10,000 examples, out of which only 51 are wrongly predicted. To understand better, let's try to take a close look at the wrong predictions. All the wrong predictions are listed in the table below.
+
+|    | Input_text                                                                                                                                          | True_target   | Predicted   |
+|---:|:----------------------------------------------------------------------------------------------------------------------------------------------------|:--------------|:------------|
+|  0 | <idf.lang> andaroni circle ki membership muft nahi hai.                                                                                             | ur            | hi          |
+|  1 | <idf.lang> aisa lag raha tha k ye hmaisha k liye hai.                                                                                               | ur            | hi          |
+|  2 | <idf.lang> Brock no defiende a Hillary.                                                                                                             | es            | en          |
+|  3 | <idf.lang> Huevos means balls.                                                                                                                      | en            | th          |
+|  4 | <idf.lang> До свидания!                                                                                                                             | ru            | bg          |
+|  5 | <idf.lang> Той прегърна широко лорд Джулиан.                                                                                                        | bg            | ru          |
+|  6 | <idf.lang> Mujhe aik glass chocolate ka doodh chahiye                                                                                               | ur            | hi          |
+|  7 | <idf.lang> (a) Променете всяко d или t в целта до c.                                                                                                | bg            | ru          |
+|  8 | <idf.lang> aur aisa hi tha jaise wo ise mustarad kar rahi thi, kuch tareqon se, jis trha se isne apke sath bartao kiya, dosre nawase.               | ur            | hi          |
+|  9 | <idf.lang> Кальдас де Мончик окружен лесами.                                                                                                        | ru            | bg          |
+| 10 | <idf.lang> Yahan pr buht zyada IT workers han.                                                                                                      | ur            | hi          |
+| 11 | <idf.lang> Cambridge'den.                                                                                                                           | tr            | en          |
+| 12 | <idf.lang> Mosam kafi acha hai or barish wala hai.                                                                                                  | ur            | hi          |
+| 13 | <idf.lang> Koleksiyonda on iki makale var.                                                                                                          | tr            | vi          |
+| 14 | <idf.lang> خدا حافظ!                                                                                                                                | ur            | ar          |
+| 15 | <idf.lang> Aik cheez jo M. Tesnaires nai khaya nahi kya, woh, Anglo-Saxon ka input hah.                                                             | ur            | hi          |
+| 16 | <idf.lang> Mera ek Credit Union hai, jiske paas mai jaa sakta hu                                                                                    | hi            | ur          |
+| 17 | <idf.lang> FAA ki traffic control k data ka tajzeea kiya gya tha.                                                                                   | ur            | hi          |
+| 18 | <idf.lang> sasty aur dhokay wali masnoa'at.                                                                                                         | ur            | sw          |
+| 19 | <idf.lang> Биеннале Венеции перенаселено.                                                                                                           | ru            | bg          |
+| 20 | <idf.lang> Curanderas heilen oft caida de mollera.                                                                                                  | de            | bg          |
+| 21 | <idf.lang> Бих избрал  I'll Fly Away.                                                                                                               | bg            | ru          |
+| 22 | <idf.lang> Беги и кричи.                                                                                                                            | ru            | bg          |
+| 23 | <idf.lang> अलविदा!                                                                                                                                  | hi            | ur          |
+| 24 | <idf.lang> Давай продолжим разговор.                                                                                                                | ru            | bg          |
+| 25 | <idf.lang> James Wilson Marshall ne kuch khas nahi kiya.                                                                                            | ur            | hi          |
+| 26 | <idf.lang> Je choisirai I'll Fly Away                                                                                                               | fr            | en          |
+| 27 | <idf.lang> Sielewi hoja hio.                                                                                                                        | sw            | ur          |
+| 28 | <idf.lang> Ek insaan ne sare jawano ko mansik santulan diya                                                                                         | hi            | ur          |
+| 29 | <idf.lang> Meri dadi hamasha apne bachpan ke baray mein baat kerne ki lye inkaar kar deti thein.                                                    | ur            | hi          |
+| 30 | <idf.lang> aur hum, Las Vegas, NV mai aik adress par move hogaye hian, jaisa ke humne Washington mai kiya tah.                                      | ur            | hi          |
+| 31 | <idf.lang> si...si..sikuota.                                                                                                                        | sw            | ur          |
+| 32 | <idf.lang> Αντίο!                                                                                                                                   | el            | ar          |
+| 33 | <idf.lang> Ye aik bura tasur daita hai agr ap karkanon ko ye dekhain k unki awazein nahi suni ja rahin.                                             | ur            | hi          |
+| 34 | <idf.lang> Congress insadad e dehshat gardi ki nigran hai.                                                                                          | ur            | hi          |
+| 35 | <idf.lang> Eugene Debs era de Indiana.                                                                                                              | es            | en          |
+| 36 | <idf.lang> jaisa aap jante hai, is samuh me sadasyata un mitra evam purane chhatron ki hai jo varshik tor par $1,000 kanun school ke liye dete hai. | hi            | ur          |
+| 37 | <idf.lang> Имах проблеми с Linux.                                                                                                                   | bg            | ru          |
+| 38 | <idf.lang> Talmudic in samaanome se ek bhi nahi le jata.                                                                                            | hi            | ur          |
+| 39 | <idf.lang> Режан кристально чиста.                                                                                                                  | ru            | bg          |
+| 40 | <idf.lang> Aise mera usse picha choota tha                                                                                                          | hi            | ur          |
+| 41 | <idf.lang> City hall terminal se buht dour hai.                                                                                                     | ur            | hi          |         |
+| 42 | <idf.lang> 拦截处理不当。                                                                                                                            | zh            | zhur          |
+| 43 | <idf.lang> James Cook bereiste alle Hawaii-Inseln.                                                                                                  | de            | en          |
+| 44 | <idf.lang> Personne ne prie.                                                                                                                        | fr            | de          |
+| 45 | <idf.lang> Biosfer 1000 mil genişledi.                                                                                                              | tr            | sw          |
+| 46 | <idf.lang> Wolverstone hakucheka.                                                                                                                   | sw            | en          |
+| 47 | <idf.lang> No soñé.                                                                                                                                 | es            | fr          |
+| 48 | <idf.lang> 'Biosphere' ilikua.                                                                                                                      | sw            | ar          |
+| 49 | <idf.lang> Sag Biegung.                                                                                                                             | de            | ar          |
+| 50 | <idf.lang> Design ka mutali’aa kamiyab nae tha.                                                                                                     | ur            | hi          |
