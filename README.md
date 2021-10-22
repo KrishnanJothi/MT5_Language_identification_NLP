@@ -125,6 +125,11 @@ The [xnli  dataset](dataset/xnli15.tsv) is cleaned and then prepared as a two-co
 
 Since the input and target token id lengths are task-specific, the distribution of the token id lengths of the dataset needs to be first analyzed.
 
+<p float="left">
+  <img src="dataset/token_length_hist/ip_tokens_len.jpg" width="400" />
+  <img src="dataset/token_length_hist/op_tokens_len.jpg" width="400" /> 
+</p>
+
 ![alt text](dataset/token_length_hist/ip_tokens_len.jpg)  ![alt text](dataset/token_length_hist/op_tokens_len.jpg)
 
 - The maximum input sequence length is set to 40.
