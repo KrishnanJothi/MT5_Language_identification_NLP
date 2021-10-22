@@ -4,7 +4,8 @@
      1.1 [ Text-to-Text Transfer Transformer (T5). ](#t5)<br />
      1.2 [ Multilingual T5. ](#mt5)
 2. [ Fine-tuning MT5. ](#finetune)<br />
-     2.1 [ Data preparation. ](#dp)
+     2.1 [ Data preparation. ](#dp)<br />
+     2.2 [ Encoding configuration. ](#ec)<br />
 
 <a name="intro"></a>
 ## 1. Introduction
@@ -107,7 +108,7 @@ These column headers are used as the target text during fine-tuning. MT5 models 
 <a name="dp"></a>
 ## 2.1 Data Preparation
 
-The [xnli  dataset](dataset/xnli15.tsv) is cleaned and then prepared as a two-column data frame, with the column headers 'input_text' and 'target_text'. Since MT5 is a text-to-text model, to specify which task the model should perform, a prefix text is added to the original input sequence before feeding it. The prefix helps the model better when fine-tuning it on multiple downstream tasks, e.g., machine translation between many languages. The prefix <idf.lang> is added as a special token to the tokenizer. A few of the prepared training samples are shown below,
+The [xnli  dataset](dataset/xnli15.tsv) is cleaned and then prepared as a two-column data frame, with the column headers 'input_text' and 'target_text'. Since MT5 is a text-to-text model, to specify which task the model should perform, a prefix text is added to the original input sequence before feeding it. The prefix helps the model better when fine-tuning it on multiple downstream tasks, e.g., machine translation between many languages. The prefix <idf.lang> is added as a special token to the tokenizer. As stated in the [documentation](https://huggingface.co/transformers/main_classes/model.html#transformers.PreTrainedModel.resize_token_embeddings), if the new number of tokens is not equal to the model.config.vocab_size, then resize the input token embeddings matrix of the model. A few of the prepared training samples are shown below,
 
 | input_text                                                                                                | target_text   |
 |:----------------------------------------------------------------------------------------------------------|:--------------|
@@ -116,3 +117,17 @@ The [xnli  dataset](dataset/xnli15.tsv) is cleaned and then prepared as a two-co
 | <idf.lang> Важно показать пределы данных, или люди сделают плохие выводы, которые уничтожат исследование. | ru            |
 | <idf.lang> Музеят е в близост до египетския музей.                                                        | bg            |
 | <idf.lang> O Mungu kwa sababu jina jina tu nimelisahau lakini ni Amani ya Bunge                           | sw            |
+
+<a name="ec"></a>
+## 2.1 Encoding Configuration
+
+[T5 paper](https://arxiv.org/pdf/1910.10683.pdf) (source) : " *There are some extra parameters in the decoder due to the encoder-decoder attention and there are also some computational costs in the attention layers that are* ***quadratic in the sequence lengths*** "
+
+Since the input and target token id lengths are task-specific, the distribution of the token id lengths of the dataset needs to be first analyzed.
+
+![alt text](dataset/token_length_hist/ip_tokens_len.jpg)  ![alt text](dataset/token_length_hist/op_tokens_len.jpg)
+
+- The maximum input sequence length is set to 40.
+- The maximum target sequence length is set to 3.
+- truncation=True truncates the sequence to a maximum length specified by the max_length argument.
+- padding='max_length' pads the sequence to a length specified by the max_length argument.
