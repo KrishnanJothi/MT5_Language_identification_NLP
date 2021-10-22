@@ -100,24 +100,24 @@ The model is tested on 10,000 examples, out of which only 51 are wrongly predict
 
 |    | Input_text                                                                                                                                          | True_target   | Predicted   |
 |---:|:----------------------------------------------------------------------------------------------------------------------------------------------------|:--------------|:------------|
-|  0 | <idf.lang> andaroni circle ki membership muft nahi hai.                                                                                             | ur            | hi          |
-|  1 | <idf.lang> aisa lag raha tha k ye hmaisha k liye hai.                                                                                               | ur            | hi          |
-|  2 | <idf.lang> Brock no defiende a Hillary.                                                                                                             | es            | en          |
-|  3 | <idf.lang> Huevos means balls.                                                                                                                      | en            | th          |
-|  4 | <idf.lang> До свидания!                                                                                                                             | ru            | bg          |
-|  5 | <idf.lang> Той прегърна широко лорд Джулиан.                                                                                                        | bg            | ru          |
-|  6 | <idf.lang> Mujhe aik glass chocolate ka doodh chahiye                                                                                               | ur            | hi          |
-|  7 | <idf.lang> (a) Променете всяко d или t в целта до c.                                                                                                | bg            | ru          |
-|  8 | <idf.lang> aur aisa hi tha jaise wo ise mustarad kar rahi thi, kuch tareqon se, jis trha se isne apke sath bartao kiya, dosre nawase.               | ur            | hi          |
-|  9 | <idf.lang> Кальдас де Мончик окружен лесами.                                                                                                        | ru            | bg          |
-| 10 | <idf.lang> Yahan pr buht zyada IT workers han.                                                                                                      | ur            | hi          |
+| ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) 00 | <idf.lang> andaroni circle ki membership muft nahi hai.                                                                                             | ur            | hi          |
+| ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) 01 | <idf.lang> aisa lag raha tha k ye hmaisha k liye hai.                                                                                               | ur            | hi          |
+|  02 | <idf.lang> Brock no defiende a Hillary.                                                                                                             | es            | en          |
+|  03 | <idf.lang> Huevos means balls.                                                                                                                      | en            | th          |
+|  04 | <idf.lang> До свидания!                                                                                                                             | ru            | bg          |
+|  05 | <idf.lang> Той прегърна широко лорд Джулиан.                                                                                                        | bg            | ru          |
+| ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)  06 | <idf.lang> Mujhe aik glass chocolate ka doodh chahiye                                                                                               | ur            | hi          |
+|  07 | <idf.lang> (a) Променете всяко d или t в целта до c.                                                                                                | bg            | ru          |
+| ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) 08 | <idf.lang> aur aisa hi tha jaise wo ise mustarad kar rahi thi, kuch tareqon se, jis trha se isne apke sath bartao kiya, dosre nawase.               | ur            | hi          |
+|  09 | <idf.lang> Кальдас де Мончик окружен лесами.                                                                                                        | ru            | bg          |
+| ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)10 | <idf.lang> Yahan pr buht zyada IT workers han.                                                                                                      | ur            | hi          |
 | 11 | <idf.lang> Cambridge'den.                                                                                                                           | tr            | en          |
-| 12 | <idf.lang> Mosam kafi acha hai or barish wala hai.                                                                                                  | ur            | hi          |
+| ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) 12 | <idf.lang> Mosam kafi acha hai or barish wala hai.                                                                                                  | ur            | hi          |
 | 13 | <idf.lang> Koleksiyonda on iki makale var.                                                                                                          | tr            | vi          |
 | 14 | <idf.lang> خدا حافظ!                                                                                                                                | ur            | ar          |
-| 15 | <idf.lang> Aik cheez jo M. Tesnaires nai khaya nahi kya, woh, Anglo-Saxon ka input hah.                                                             | ur            | hi          |
-| 16 | <idf.lang> Mera ek Credit Union hai, jiske paas mai jaa sakta hu                                                                                    | hi            | ur          |
-| 17 | <idf.lang> FAA ki traffic control k data ka tajzeea kiya gya tha.                                                                                   | ur            | hi          |
+| ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) 15 | <idf.lang> Aik cheez jo M. Tesnaires nai khaya nahi kya, woh, Anglo-Saxon ka input hah.                                                             | ur            | hi          |
+| ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) 16 | <idf.lang> Mera ek Credit Union hai, jiske paas mai jaa sakta hu                                                                                    | hi            | ur          |
+| ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) 17 | <idf.lang> FAA ki traffic control k data ka tajzeea kiya gya tha.                                                                                   | ur            | hi          |
 | 18 | <idf.lang> sasty aur dhokay wali masnoa'at.                                                                                                         | ur            | sw          |
 | 19 | <idf.lang> Биеннале Венеции перенаселено.                                                                                                           | ru            | bg          |
 | 20 | <idf.lang> Curanderas heilen oft caida de mollera.                                                                                                  | de            | bg          |
@@ -125,23 +125,23 @@ The model is tested on 10,000 examples, out of which only 51 are wrongly predict
 | 22 | <idf.lang> Беги и кричи.                                                                                                                            | ru            | bg          |
 | 23 | <idf.lang> अलविदा!                                                                                                                                  | hi            | ur          |
 | 24 | <idf.lang> Давай продолжим разговор.                                                                                                                | ru            | bg          |
-| 25 | <idf.lang> James Wilson Marshall ne kuch khas nahi kiya.                                                                                            | ur            | hi          |
+| ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) 25 | <idf.lang> James Wilson Marshall ne kuch khas nahi kiya.                                                                                            | ur            | hi          |
 | 26 | <idf.lang> Je choisirai I'll Fly Away                                                                                                               | fr            | en          |
 | 27 | <idf.lang> Sielewi hoja hio.                                                                                                                        | sw            | ur          |
-| 28 | <idf.lang> Ek insaan ne sare jawano ko mansik santulan diya                                                                                         | hi            | ur          |
-| 29 | <idf.lang> Meri dadi hamasha apne bachpan ke baray mein baat kerne ki lye inkaar kar deti thein.                                                    | ur            | hi          |
-| 30 | <idf.lang> aur hum, Las Vegas, NV mai aik adress par move hogaye hian, jaisa ke humne Washington mai kiya tah.                                      | ur            | hi          |
+| ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) 28 | <idf.lang> Ek insaan ne sare jawano ko mansik santulan diya                                                                                         | hi            | ur          |
+| ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) 29 | <idf.lang> Meri dadi hamasha apne bachpan ke baray mein baat kerne ki lye inkaar kar deti thein.                                                    | ur            | hi          |
+| ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) 30 | <idf.lang> aur hum, Las Vegas, NV mai aik adress par move hogaye hian, jaisa ke humne Washington mai kiya tah.                                      | ur            | hi          |
 | 31 | <idf.lang> si...si..sikuota.                                                                                                                        | sw            | ur          |
 | 32 | <idf.lang> Αντίο!                                                                                                                                   | el            | ar          |
-| 33 | <idf.lang> Ye aik bura tasur daita hai agr ap karkanon ko ye dekhain k unki awazein nahi suni ja rahin.                                             | ur            | hi          |
-| 34 | <idf.lang> Congress insadad e dehshat gardi ki nigran hai.                                                                                          | ur            | hi          |
+| ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) 33 | <idf.lang> Ye aik bura tasur daita hai agr ap karkanon ko ye dekhain k unki awazein nahi suni ja rahin.                                             | ur            | hi          |
+| ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) 34 | <idf.lang> Congress insadad e dehshat gardi ki nigran hai.                                                                                          | ur            | hi          |
 | 35 | <idf.lang> Eugene Debs era de Indiana.                                                                                                              | es            | en          |
-| 36 | <idf.lang> jaisa aap jante hai, is samuh me sadasyata un mitra evam purane chhatron ki hai jo varshik tor par $1,000 kanun school ke liye dete hai. | hi            | ur          |
+| ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) 36 | <idf.lang> jaisa aap jante hai, is samuh me sadasyata un mitra evam purane chhatron ki hai jo varshik tor par $1,000 kanun school ke liye dete hai. | hi            | ur          |
 | 37 | <idf.lang> Имах проблеми с Linux.                                                                                                                   | bg            | ru          |
-| 38 | <idf.lang> Talmudic in samaanome se ek bhi nahi le jata.                                                                                            | hi            | ur          |
+| ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) 38 | <idf.lang> Talmudic in samaanome se ek bhi nahi le jata.                                                                                            | hi            | ur          |
 | 39 | <idf.lang> Режан кристально чиста.                                                                                                                  | ru            | bg          |
-| 40 | <idf.lang> Aise mera usse picha choota tha                                                                                                          | hi            | ur          |
-| 41 | <idf.lang> City hall terminal se buht dour hai.                                                                                                     | ur            | hi          |         |
+| ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) 40 | <idf.lang> Aise mera usse picha choota tha                                                                                                          | hi            | ur          |
+| ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) 41 | <idf.lang> City hall terminal se buht dour hai.                                                                                                     | ur            | hi          |         |
 | 42 | <idf.lang> 拦截处理不当。                                                                                                                            | zh            | zhur          |
 | 43 | <idf.lang> James Cook bereiste alle Hawaii-Inseln.                                                                                                  | de            | en          |
 | 44 | <idf.lang> Personne ne prie.                                                                                                                        | fr            | de          |
@@ -150,4 +150,15 @@ The model is tested on 10,000 examples, out of which only 51 are wrongly predict
 | 47 | <idf.lang> No soñé.                                                                                                                                 | es            | fr          |
 | 48 | <idf.lang> 'Biosphere' ilikua.                                                                                                                      | sw            | ar          |
 | 49 | <idf.lang> Sag Biegung.                                                                                                                             | de            | ar          |
-| 50 | <idf.lang> Design ka mutali’aa kamiyab nae tha.                                                                                                     | ur            | hi          |
+| ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) 50 | <idf.lang> Design ka mutali’aa kamiyab nae tha.                                                                                                     | ur            | hi          |
+
+
+```diff
++ this text is highlighted in green
+- this text is highlighted in red
+```
+
+![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `krish`
+
+~~This is green~~
+_this is blue_
