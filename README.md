@@ -6,6 +6,7 @@
 2. [ Fine-tuning MT5. ](#finetune)<br />
      2.1 [ Data preparation. ](#dp)<br />
      2.2 [ Encoding configuration. ](#ec)<br />
+     2.3 [ Training results. ](#tr)<br />
 
 <a name="intro"></a>
 ## 1. Introduction
@@ -119,7 +120,7 @@ The [xnli  dataset](dataset/xnli15.tsv) is cleaned and then prepared as a two-co
 | <idf.lang> O Mungu kwa sababu jina jina tu nimelisahau lakini ni Amani ya Bunge                           | sw            |
 
 <a name="ec"></a>
-## 2.1 Encoding Configuration
+## 2.2 Encoding Configuration
 
 [T5 paper](https://arxiv.org/pdf/1910.10683.pdf) (source) : " *There are some extra parameters in the decoder due to the encoder-decoder attention and there are also some computational costs in the attention layers that are* ***quadratic in the sequence lengths*** "
 
@@ -134,3 +135,8 @@ Since the input and target token id lengths are task-specific, the distribution 
 - The maximum target sequence length is set to 3.
 - truncation=True truncates the sequence to a maximum length specified by the max_length argument.
 - padding='max_length' pads the sequence to a length specified by the max_length argument.
+
+<a name="tr"></a>
+## 2.3 Training Results
+
+The optimizer used is AdamW with the learning rate 5e-4. The learning rate scheduler used is a linear schedule with a warmup, which creates a schedule with a learning rate that decreases linearly from the initial learning rate set in the optimizer to 0, after a warmup period during which it increases linearly from 0 to the initial learning rate set in the optimizer. Warmup is a way to reduce the primacy effect of the early training examples.
