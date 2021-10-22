@@ -160,3 +160,5 @@ The model is tested on 10,000 examples, out of which only 51 are wrongly predict
 
 - So when Hindi/Urdu is written using English letters, the model finds it difficult to differentiate them since they sound very similar, and hence they contribute to almost 40% of the wrong predictions.
 
+
+
