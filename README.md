@@ -158,7 +158,9 @@ The model is tested on 10,000 examples, out of which only 51 are wrongly predict
 
 - Both Hindi and Urdu originally developed from Khari Boli, a dialect of the Delhi region, and the spoken languages are extremely similar to one another. They have the exact same grammatical structure, and at the beginner level, they share over 70 - 80% of their vocabulary. If you heard people speaking in India, you wouldn’t know if it was Hindi or Urdu. Although spoken Urdu and Hindi are very similar, the written portions of the languages are quite different from one another, and it is their separate scripts and literary traditions that have largely contributed to their status as separate languages rather than dialects. Hindi is developed from Sanskrit and written left-to-right, while Urdu has a right-to-left script that is derived from Persian and Arabic.
 
-- So when Hindi/Urdu is written using English letters, the model finds it difficult to differentiate them since they sound very similar, and hence they contribute to almost 40% of the wrong predictions.
+- So when Hindi/Urdu is written using English letters, the model might find it difficult to differentiate them since they sound very similar, and hence they contribute to almost 40% of the wrong predictions.
+
+![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+)  Almost 20% of the wrong predictions are either Bulgarian sentences predicted as Russian or vice versa. All these wrongly predicted sentences marked with blue squares are Bulgarian or Russian sentences written using their original script. Despite using their original script, what might be the reason for the wrong predictions?
 
 ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+)  
 
