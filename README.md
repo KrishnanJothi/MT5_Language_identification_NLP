@@ -166,6 +166,9 @@ The model is tested on 10,000 examples, out of which only 51 are wrongly predict
 
 ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+)  The model prediction 'zhur' does not correspond to any of the languages mentioned in the xnli dataset. Or the prediction can be viewed as a combination of two languages (Chinese and Urdu) for the given input text. What might be the reason for such an output?
 
+- Unlike encoder-based models, there is no hard constraint to generate a well-formed prediction (e.g., exact class labels as predicted text) since the decoder part of the mt5 model is auto-regressive. Hence this kind of output is acceptable in text-to-text generative models.
+
+
 
 
 
