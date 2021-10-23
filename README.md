@@ -162,6 +162,8 @@ The model is tested on 10,000 examples, out of which only 51 are wrongly predict
 
 ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+)  Almost 20% of the wrong predictions are either Bulgarian sentences predicted as Russian or vice versa. All these wrongly predicted sentences marked with blue squares are Bulgarian or Russian sentences written using their original script. Despite using their original script, what might be the reason for the wrong predictions?
 
+- Both Bulgarian and Russian belong to the Slavic languages family. The most obvious common feature between both of them is that they use the Cyrillic alphabet. However, both languages have adapted it to their own sound systems and have differences in terms of Grammer. But still, they are very similar in terms of the script, and there are only minor differences.
+
 ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+)  
 
 
