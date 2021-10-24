@@ -102,7 +102,7 @@ The model is tested on 10,000 examples, out of which only 51 are wrongly predict
 |---:|:----------------------------------------------------------------------------------------------------------------------------------------------------|:--------------|:------------|
 | ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) 00 | <idf.lang> andaroni circle ki membership muft nahi hai.                                                                                             | ur            | hi          |
 | ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) 01 | <idf.lang> aisa lag raha tha k ye hmaisha k liye hai.                                                                                               | ur            | hi          |
-|  02 | <idf.lang> Brock no defiende a Hillary.                                                                                                             | es            | en          |
+|  ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) 02 | <idf.lang> Brock no defiende a Hillary.                                                                                                             | es            | en          |
 |  03 | <idf.lang> Huevos means balls.                                                                                                                      | en            | th          |
 |  ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) 04 | <idf.lang> До свидания!                                                                                                                             | ru            | bg          |
 |  ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) 05 | <idf.lang> Той прегърна широко лорд Джулиан.                                                                                                        | bg            | ru          |
@@ -110,8 +110,8 @@ The model is tested on 10,000 examples, out of which only 51 are wrongly predict
 |  ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) 07 | <idf.lang> (a) Променете всяко d или t в целта до c.                                                                                                | bg            | ru          |
 | ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) 08 | <idf.lang> aur aisa hi tha jaise wo ise mustarad kar rahi thi, kuch tareqon se, jis trha se isne apke sath bartao kiya, dosre nawase.               | ur            | hi          |
 |  ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) 09 | <idf.lang> Кальдас де Мончик окружен лесами.                                                                                                        | ru            | bg          |
-| ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)10 | <idf.lang> Yahan pr buht zyada IT workers han.                                                                                                      | ur            | hi          |
-| 11 | <idf.lang> Cambridge'den.                                                                                                                           | tr            | en          |
+| ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) 10 | <idf.lang> Yahan pr buht zyada IT workers han.                                                                                                      | ur            | hi          |
+| ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) 11 | <idf.lang> Cambridge'den.                                                                                                                           | tr            | en          |
 | ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) 12 | <idf.lang> Mosam kafi acha hai or barish wala hai.                                                                                                  | ur            | hi          |
 | 13 | <idf.lang> Koleksiyonda on iki makale var.                                                                                                          | tr            | vi          |
 | 14 | <idf.lang> خدا حافظ!                                                                                                                                | ur            | ar          |
@@ -135,7 +135,7 @@ The model is tested on 10,000 examples, out of which only 51 are wrongly predict
 | 32 | <idf.lang> Αντίο!                                                                                                                                   | el            | ar          |
 | ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) 33 | <idf.lang> Ye aik bura tasur daita hai agr ap karkanon ko ye dekhain k unki awazein nahi suni ja rahin.                                             | ur            | hi          |
 | ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) 34 | <idf.lang> Congress insadad e dehshat gardi ki nigran hai.                                                                                          | ur            | hi          |
-| 35 | <idf.lang> Eugene Debs era de Indiana.                                                                                                              | es            | en          |
+| ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+)35 | <idf.lang> Eugene Debs era de Indiana.                                                                                                              | es            | en          |
 | ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) 36 | <idf.lang> jaisa aap jante hai, is samuh me sadasyata un mitra evam purane chhatron ki hai jo varshik tor par $1,000 kanun school ke liye dete hai. | hi            | ur          |
 | ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) 37 | <idf.lang> Имах проблеми с Linux.                                                                                                                   | bg            | ru          |
 | ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) 38 | <idf.lang> Talmudic in samaanome se ek bhi nahi le jata.                                                                                            | hi            | ur          |
@@ -143,10 +143,10 @@ The model is tested on 10,000 examples, out of which only 51 are wrongly predict
 | ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) 40 | <idf.lang> Aise mera usse picha choota tha                                                                                                          | hi            | ur          |
 | ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) 41 | <idf.lang> City hall terminal se buht dour hai.                                                                                                     | ur            | hi          |         |
 | ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) 42 | <idf.lang> 拦截处理不当。                                                                                                                            | zh            | zhur          |
-| 43 | <idf.lang> James Cook bereiste alle Hawaii-Inseln.                                                                                                  | de            | en          |
+| ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) 43 | <idf.lang> James Cook bereiste alle Hawaii-Inseln.                                                                                                  | de            | en          |
 | 44 | <idf.lang> Personne ne prie.                                                                                                                        | fr            | de          |
 | 45 | <idf.lang> Biosfer 1000 mil genişledi.                                                                                                              | tr            | sw          |
-| 46 | <idf.lang> Wolverstone hakucheka.                                                                                                                   | sw            | en          |
+| ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) 46 | <idf.lang> Wolverstone hakucheka.                                                                                                                   | sw            | en          |
 | 47 | <idf.lang> No soñé.                                                                                                                                 | es            | fr          |
 | 48 | <idf.lang> 'Biosphere' ilikua.                                                                                                                      | sw            | ar          |
 | 49 | <idf.lang> Sag Biegung.                                                                                                                             | de            | ar          |
@@ -169,7 +169,11 @@ The model is tested on 10,000 examples, out of which only 51 are wrongly predict
 - Unlike encoder-based models, there is no hard constraint to generate a well-formed prediction (e.g., exact class labels as predicted text) since the decoder part of the mt5 model is auto-regressive. Hence this kind of output is acceptable in text-to-text generative models.
 
 
+![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) The rows marked with double blue squares contribute to almost 10% of the wrong predictions. The following are the similarities between them,
 
-
-
+- The script of these texts is very similar to the English language, and the length of the sequences is short.
+- All those texts contain the name of a person or place, whose short description is given below based on the context of the sentences.
+     * Brock (an American liberal political consultant), Cambridge (a city in eastern England), Eugene Debs (an American socialist), James Cook (a British explorer), Wolverstone (an English name).
+- All these names are somehow related to the English language.
+- The language of all these sentences is wrongly predicted as English.
 
