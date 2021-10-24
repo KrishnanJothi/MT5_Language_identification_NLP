@@ -7,7 +7,7 @@
      2.1 [ Data preparation. ](#dp)<br />
      2.2 [ Encoding configuration. ](#ec)<br />
      2.3 [ Training results. ](#tr)<br />
-     2.4 [ Model Testing. ](#mt)<br />
+     2.4 [ Model Testing and Discussion. ](#mt)<br />
 
 <a name="intro"></a>
 ## 1. Introduction
@@ -92,7 +92,7 @@ The optimizer used is AdamW with the learning rate 5e-4. The learning rate sched
 ![alt text](finetuning_results/Loss_Plot.png)
 
 <a name="mt"></a>
-## 2.4 Model Testing
+## 2.4 Model Testing and Discussion
 
 **Model Test Accuracy: 99.49%**
 
