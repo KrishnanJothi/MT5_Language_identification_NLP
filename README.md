@@ -167,7 +167,8 @@ The model is tested on 10,000 examples, out of which only 51 are wrongly predict
 - Both Bulgarian and Russian belong to the Slavic languages family. The most obvious common feature between both of them is that they use the Cyrillic alphabet. However, both languages have adapted it to their own sound systems and have differences in terms of Grammer. But still, they are very similar in terms of the script, and there are only minor differences. The similarity in the text between both the languages might be the reason for this 20% of wrong predictions.
 
 
-![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) The rows marked with double blue squares contribute to almost 10% of the wrong predictions. The following are the similarities between them,
+![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+)<br /> 
+![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) The rows marked with double blue squares contribute to almost 10% of the wrong predictions. The following are the similarities between them,
 
 - The script of these texts is very similar to the English language, and the length of the sequences is short.
 - All those texts contain the name of a person or place, whose short description is given below based on the context of the sentences.
