@@ -160,9 +160,11 @@ The model is tested on 10,000 examples, out of which only 51 are wrongly predict
 
 - So when Hindi/Urdu is written using English letters, the model might find it difficult to differentiate them since they sound very similar, and hence they contribute to almost 40% of the wrong predictions.
 
+
 ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+)  Almost 20% of the wrong predictions are either Bulgarian sentences predicted as Russian or vice versa. All these wrongly predicted sentences marked with blue squares are Bulgarian or Russian sentences written using their original script. Despite using their original script, what might be the reason for the wrong predictions?
 
 - Both Bulgarian and Russian belong to the Slavic languages family. The most obvious common feature between both of them is that they use the Cyrillic alphabet. However, both languages have adapted it to their own sound systems and have differences in terms of Grammer. But still, they are very similar in terms of the script, and there are only minor differences. The similarity in the text between both the languages might be the reason for this 20% of wrong predictions.
+
 
 ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) The rows marked with double blue squares contribute to almost 10% of the wrong predictions. The following are the similarities between them,
 
@@ -171,9 +173,11 @@ The model is tested on 10,000 examples, out of which only 51 are wrongly predict
      * Brock (an American liberal political consultant), Cambridge (a city in eastern England), Eugene Debs (an American socialist), James Cook (a British explorer), Wolverstone (an English name).
 - All these names are somehow related to the English language.
 - The language of all these sentences is wrongly predicted as English.
-- A few rows (10,15,16,17,21,25,30,34,41) in the above table still contain few English words, but they are not wrongly predicted as English. But all of those rows either do not contain short sentences or the script/vocabulary of the input sentence is not similar to English.
+
+A few rows (10,15,16,17,21,25,30,34,41) in the above table still contain few English words, but they are not wrongly predicted as English. But all of those rows either do not contain short sentences or the script/vocabulary of the input sentence is not similar to English.
 
 Few words in a sentence that are more relevant to a particular language, and cannot be translated to other languages (e.g., name of a person/place) might influence the model output, especially if the input sentence is short and/or the script and vocabulary of the language from which those words originated are similar to the that of the input text.
+
 
 ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+)  The model prediction 'zhur' does not correspond to any of the languages mentioned in the xnli dataset. Or the prediction can be viewed as a combination of two languages (Chinese and Urdu) for the given input text. What might be the reason for such an output?
 
