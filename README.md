@@ -175,7 +175,7 @@ The model is tested on 10,000 examples, out of which only 51 are wrongly predict
 - All these names are somehow related to the English language.
 - The language of all these sentences is wrongly predicted as English.
 
-A few rows (10,15,16,17,21,25,30,34,41) in the above table still contain few English words, but they are not wrongly predicted as English. But all of those rows either do not contain short sentences or the script/vocabulary of the input sentence is not similar to English.
+A few rows (10,15,16,17,21,25,30,34,41) in the above table contain few English words, but still they are not wrongly predicted as English. But all of those rows either do not contain short sentences or the script/vocabulary of the input sentence is not similar to English.
 
 Few words in a sentence that are more relevant to a particular language, and cannot be translated to other languages (e.g., name of a person/place) might influence the model output, especially if the input sentence is short and/or the script and vocabulary of the language from which those words originated are similar to the that of the input text.
 
