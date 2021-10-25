@@ -1,3 +1,5 @@
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/KrishnanJothi/MT5_Language_identification_NLP/blob/main/MT5_fine-tuning.ipynb)
+
 # MT5_Language_Identifier
 
 1. [ Introduction. ](#intro)<br />
