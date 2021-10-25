@@ -92,12 +92,14 @@ The optimizer used is AdamW with the learning rate 5e-4. The learning rate sched
 
 ![alt text](finetuning_results/Loss_Plot.png)
 
+The model.forward() function is used to perform the forward pass using a batch of input and target token ids. The forward pass automatically creates the correct decoder_input_ids required for training. The calculated loss is backpropagated to update the model weights for each training step. During training, the model is also validated and saved at regular intervals.
+
 <a name="mt"></a>
 ## 2.4 Model Testing and Discussion
 
 **Model Test Accuracy: 99.49%**
 
-The model is tested on 10,000 examples, out of which only 51 are wrongly predicted. To understand better, let's try to take a close look at the wrong predictions. All the wrong predictions are listed in the table below.
+At inference time, the model.generate() function is used, which auto-regressively generates the decoder output, given the input text token ids. Then the tokenizer is used to decode the output ids into text. The model is tested on 10,000 examples, out of which only 51 are wrongly predicted. To understand better, let's try to take a close look at the wrong predictions. All the wrong predictions are listed in the table below.
 
 |    | Input_text                                                                                                                                          | True_target   | Predicted   |
 |---:|:----------------------------------------------------------------------------------------------------------------------------------------------------|:--------------|:------------|
