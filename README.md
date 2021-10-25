@@ -1,5 +1,3 @@
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/KrishnanJothi/MT5_Language_identification_NLP/blob/main/MT5_fine-tuning.ipynb)
-
 # MT5_Language_Identifier
 
 1. [ Introduction. ](#intro)<br />
@@ -10,6 +8,7 @@
      2.2 [ Encoding configuration. ](#ec)<br />
      2.3 [ Training results. ](#tr)<br />
      2.4 [ Model Testing and Discussion. ](#mt)<br />
+3. [ Tips to run the code. ](#tips)<br />
 
 <a name="intro"></a>
 ## 1. Introduction
@@ -186,5 +185,11 @@ Few words in a sentence that are more relevant to a particular language, and can
 - Unlike encoder-based models, there is no hard constraint to generate a well-formed prediction (e.g., exact class labels as predicted text) since the decoder part of the mt5 model is auto-regressive. Hence this kind of output is acceptable in text-to-text generative models.
 
 
+<a name="tips"></a>
+## 3. Tips to run the code
+
+- This entire project was run in Google Colaboratory. To directly open the .ipynb file in Google colab [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/KrishnanJothi/MT5_Language_identification_NLP/blob/main/MT5_fine-tuning.ipynb)
+- Download the [XNLI-15way dataset](https://drive.google.com/file/d/11JDe19N2IgtEESH_oOXxQ7gEw0Mcvud5/view?usp=sharing) here directly, or after cloning the repository, the file 'xnli15.tsv' can be found in the dataset directory. Make sure the directory of the file is correct in the code before running the script.
+- If you are running the code in a local machine, there is no need to mount the Google drive, and the training results can be saved in the local machine by modifying the required directories in the code. Since many packages are pre-installed in Google Colab, only the required additional packages(klib,sentencepiece and transformers) are installed separately. If you are running the code in a local machine, make sure that all the loaded packages are installed in the working environment before running the script.
 
 
